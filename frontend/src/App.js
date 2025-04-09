@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [message, setMessage] = useState('');
 
-  useEffect(() => {
+  useEffect(() => {//testing comment
     // Update the fetch URL to point to your deployed backend URL
     const backendUrl = 'https://skillverseback-gjatfng2btdjgwfp.canadacentral-01.azurewebsites.net';
 
