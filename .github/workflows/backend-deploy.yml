@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "22.x" # Adjust this based on your backend's Node.js version
+          node-version: "22.14.0" # Adjust this based on your backend's Node.js version
 
       - name: Install dependencies
         run: |
